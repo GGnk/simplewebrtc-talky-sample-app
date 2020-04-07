@@ -51,6 +51,7 @@
     "fix-lint": "tslint --fix --project .",
     "generate:emoji": "node generate-emoji-shortcodes.js",
     "start": "webpack-dev-server --mode development --open --history-api-fallback",
+    "startNew": " webpack-dev-server --useLocalIp --port 9000  --mode development --open --history-api-fallback",
     "test": "react-scripts test"
   }
 }
